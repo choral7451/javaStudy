@@ -30,7 +30,10 @@ public class input {
 //		String test2 = in.nextLine();
 		
 		// 숫자 입력, 입력받은 두 수 합치기
+		System.out.println("두수의 합을 계산하는 프로그램입니다.");
+		System.out.println("첫번째 숫자를 입력해 주세요");
 		int num = in.nextInt();
+		System.out.println("첫번째 숫자를 입력해 주세요");
 		int num2 = in.nextInt();
 			
 		// 값이 String 타입으로 변화되어 출력된다 ( 묵시적 형변환 )
