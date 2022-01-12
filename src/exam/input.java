@@ -8,6 +8,18 @@ public class input {
 		
 		// Scanner 클래스를 이용해서 프로그램 사용자로부터 테이터 입력받기
 		
+		// Scanner 메서드 
+		// boolean : nextBoolean()
+		// byte : nextByte()
+		// short : nextShort()
+		// long : nextLong()
+		// float : nextFloat()
+		// double : nextDouble()
+		// Int :  nextInt()
+		// String: next(), nextLine()
+		// ** next()는 공백 전까지의 값을 입력 받음
+		// ** 입력한 문자 전체를 입력받음(개행(엔터기준)을 기준으로 처리)
+		
 		// 데이터를 입력받기위해 Scanner 객체 생성
 		Scanner in = new Scanner(System.in);
 		
