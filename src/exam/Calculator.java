@@ -12,34 +12,27 @@ public class Calculator {
 		
 		Scanner in = new Scanner(System.in);
 		
-		System.out.println("계산 프로그램 입니다. ");
-		System.out.println("첫번째 숫자를 입력해 주세요");
-		int num = in.nextInt();
-		System.out.println("사칙 연사자를 선택해 주세요( + - * / )");
-		String a = in.next();
-		System.out.println(a);
-		System.out.println("두번째 숫자를 입력해 주세요");
-		int num2 = in.nextInt();
-		int result;
-		String result2 = new String("잘못된 연산자 입니다.");
+		System.out.println("처번째 수 입력");
+		int a = in.nextInt();
 		
-		if( a == "+") {
-			result = num + num2;
-			System.out.println(result);
-		} else if ( a == "-") {
-			result = num - num2;
-			System.out.println(result);
-		} else if ( a == "*") {
-			result = num * num2;
-			System.out.println(result);
-		} else if ( a == "/") {
-			result = num / num2;
-			System.out.println(result);
-		} else {
-			System.out.println(result2);
-		}
+		System.out.println("두번째 수 입력");
+		int b = in.nextInt();
 		
+		System.out.println("계산결과");
+		System.out.println("덧셈 : " + (a+b));
 		
+		// 계산기 기능개조 1(문제)
+		// 만약 a가 b보다 작으면 b-a로 진행하세요
+		
+		int result = (a < b) ? b - a : a - b;
+		System.out.println("뺄셈 : "+ result);
+		System.out.println("곱셈 : "+ (a*b));
+
+		
+		// 계산기 기능개조 2(문제)
+		// 만약 a가 b보다 작으면 b/a로 진행하세요
+		int result2 = (a < b) ? b/a : a/b;
+		System.out.println("나눗셈 : "+ result2);
 	}
 
 }
