@@ -42,19 +42,19 @@ public class strMethods {
 //				String test4 = new String("happy day");
 //				
 //				String idx = "happy lunch time";
-				String idx = "hello everybody";
+//				String idx = "hello everybody";
 				// charAt, substring 
 				// charAt : 문자열에서 특정한 위치의 문자를 뽑아낼때 사용.
 //				System.out.println(idx.charAt(4));
 				// substring : 문자열중 특정 부분을 뽑아낼 경우 사용
-				System.out.println(idx.substring(0, 4));
-				System.out.println(idx.substring(3, 9));
-				
-				// replace, replaceAll
-				// replaceAll은 정규표현식이 사용 가능하다.
-				// replace는 char, replaceall은 String
-//				String repl1 = "test";
-				//System.out.println(repl1.replaceAll("st", "ji"));
+//				System.out.println(idx.substring(0, 4));
+//				System.out.println(idx.substring(3, 9));
+//				
+//				 replace, replaceAll
+//				 replaceAll은 정규표현식이 사용 가능하다.
+//				 replace는 char, replaceall은 String
+				String repl1 = "test";
+				System.out.println(repl1.replaceAll("st", "ji"));
 				
 				// toUpperCase(모두 대문자), toLowerCase(모두 소문자)
 //				String case1 = "Funny Java";		
@@ -69,7 +69,8 @@ public class strMethods {
 //				String[] result = case2.split(":");
 //				System.out.println(result[0]);
 //				for(int i=0; i<result.length; i++) {
-//				System.out.println(result[i]);
+//					System.out.println(result[i]);
+//				}
 
 	}
 
