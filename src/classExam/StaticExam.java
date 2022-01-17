@@ -14,7 +14,7 @@ class MemberCall {
 	}
 	
 	static void staticMethod1() {
-		System.out.println(iv);
+//		System.out.println(iv);
 		System.out.println(cv);
 	}
 }
@@ -23,7 +23,7 @@ public class StaticExam {
 	public static void main(String[] args) {
 		MemberCall me = new MemberCall();
 		
-		System.out.println(me.cv);
+//		System.out.println(me.cv);
 		System.out.println(me.iv);
 		System.out.println(me.iv2);
 	}	
