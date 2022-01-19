@@ -10,9 +10,9 @@ public class Encapsulation {
                 // 정보은닉 -> 내부에서 사용한 클래스를 노출하지 않거나
                 //            클래스 내부에서만 사용하는 메서드가 외부에 노출되지 않도록
                 //            숨기고 변수에 저장된 값이 외부에서 변하지 않도록 보호하기 위함.
-
-                Test1 t = new Test1("test");
-                System.out.println(t.getName());
+//
+//                Test1 t = new Test1("test");
+//                System.out.println(t.getName());
 
         }
 }
