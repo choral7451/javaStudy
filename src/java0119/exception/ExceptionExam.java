@@ -85,25 +85,25 @@ public class ExceptionExam {
 //        System.out.println(4/0); // -> 에러
         
         // 나눗셈 계산해주는 프로그램
-        while (true) {
-            Scanner sc = new Scanner(System.in);
-            int firDiv;
-            int secDiv;
-
-            try {
-
-                System.out.println("피제수(나눠버릴)를 입력해주세요");
-                firDiv = sc.nextInt();
-
-                System.out.println("제수(나눌숫자)를 입력해주세요");
-                secDiv = sc.nextInt();
-
-                int result = firDiv/secDiv;
-                System.out.println(String.format("%d / %d = %d\n",firDiv,secDiv,result));
-
-            } catch (ArithmeticException e) {
-                 e.printStackTrace();
-            }
-        }
+//        while (true) {
+//            Scanner sc = new Scanner(System.in);
+//            int firDiv;
+//            int secDiv;
+//
+//            try {
+//
+//                System.out.println("피제수(나눠버릴)를 입력해주세요");
+//                firDiv = sc.nextInt();
+//
+//                System.out.println("제수(나눌숫자)를 입력해주세요");
+//                secDiv = sc.nextInt();
+//
+//                int result = firDiv/secDiv;
+//                System.out.println(String.format("%d / %d = %d\n",firDiv,secDiv,result));
+//
+//            } catch (ArithmeticException e) {
+//                 e.printStackTrace();
+//            }
+//        }
     }
 }
