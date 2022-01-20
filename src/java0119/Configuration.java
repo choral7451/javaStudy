@@ -5,7 +5,7 @@ public class Configuration {
     // 정적변수에 저장하여 인스턴스에 접근할 수 있도록한다.
     private static Configuration config;
     private String test1 = "테스트1";
-    private String test2 = "테스트2";
+    private String test2 = "테스트 ";
     // 그와 동시에 인스턴스를 생성할 수 있는 특정한 정적 메서드를 통해서만
     // 인스턴스를 생성하도록 처리하고 인스턴스는
     public static Configuration getInstance() {
